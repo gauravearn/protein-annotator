@@ -1,5 +1,5 @@
 # protein_annotator
-- a genome annotator based on the protein annnotationsfunctions to analyze and annotate your genome using the protein annotations.
+- a genome annotator based on the protein annnotations functions to analyze and annotate your genome using the protein annotations.
 - it provides all the analysis done on the basis of the protein anntoations to the genome.
 - provide the reference proteins and the assembled genome and it will provide
    - mRNA
