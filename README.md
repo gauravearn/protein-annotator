@@ -4,13 +4,13 @@
 - provide the reference proteins and the assembled genome and it will provide
    - generatemRNA
      ```
-     generatingAlignments("/home/gaurav/Desktop/final_code_push/multi.gff", 
+     generatemRNA("/home/gaurav/Desktop/final_code_push/multi.gff", 
                         "/home/gaurav/Desktop/final_code_push/multi.fasta", 
                                "/home/gaurav/Desktop/final_code_push/multiout.fasta")
      ```
    - generateCDS
      ```
-     generatingAlignments("/home/gaurav/Desktop/final_code_push/multi.gff", 
+     generateCDS("/home/gaurav/Desktop/final_code_push/multi.gff", 
                         "/home/gaurav/Desktop/final_code_push/multi.fasta", 
                                "/home/gaurav/Desktop/final_code_push/multiout.fasta")
      ```
