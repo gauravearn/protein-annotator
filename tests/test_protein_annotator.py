@@ -1,0 +1,1 @@
+from protein_annotator import protein_annotator
