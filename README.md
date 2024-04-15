@@ -1,24 +1,30 @@
 # protein_annotator
-
-a genome annotator based on the protein annnotationsfunctions to analyze and annotate your genome using the protein annotations.
+- a genome annotator based on the protein annnotationsfunctions to analyze and annotate your genome using the protein annotations.
+- it provides all the analysis done on the basis of the protein anntoations to the genome.
+- provide the reference proteins and the assembled genome and it will provide
+   - mRNA
+   - CDS
+   - plots cCDS
+   - plot mRNA
+   - extract exons
+   - extract introns 
 
 ## Installation
-
 ```bash
 $ pip install protein_annotator
 ```
 
-## Usage
-
-- TODO
-
 ## Contributing
-
 Interested in contributing? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
 
 ## License
-
-`protein_annotator` was created by Gaurav Sablok. It is licensed under the terms of the MIT license.
+`protein_annotator` was created by Gaurav Sablok. It is licensed under the terms of the MIT license. 
+Gaurav Sablok \
+Academic Staff Member \
+Bioinformatics \
+Institute for Biochemistry and Biology \
+University of Potsdam \
+Potsdam,Germany
 
 ## Credits
 
