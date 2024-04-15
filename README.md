@@ -2,12 +2,29 @@
 - a genome annotator based on the protein annnotations functions to analyze and annotate your genome using the protein annotations.
 - it provides all the analysis done on the basis of the protein anntoations to the genome.
 - provide the reference proteins and the assembled genome and it will provide
-   - mRNA
-   - CDS
-   - plots cCDS
-   - plot mRNA
-   - extract exons
-   - extract introns 
+   - generatemRNA
+     ```
+     generatingAlignments("/home/gaurav/Desktop/final_code_push/multi.gff", 
+                        "/home/gaurav/Desktop/final_code_push/multi.fasta", 
+                               "/home/gaurav/Desktop/final_code_push/multiout.fasta")
+     ```
+   - generateCDS
+     ```
+     generatingAlignments("/home/gaurav/Desktop/final_code_push/multi.gff", 
+                        "/home/gaurav/Desktop/final_code_push/multi.fasta", 
+                               "/home/gaurav/Desktop/final_code_push/multiout.fasta")
+     ```
+   - plotCDS
+     ```
+     ```
+   - plotmRNA
+     ```
+     ```
+   - extractintrons
+ 
+   - plotintrons
+     ```
+     ``` 
 
 ## Installation
 ```bash
