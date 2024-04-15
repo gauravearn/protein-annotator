@@ -2,12 +2,30 @@
 - a genome annotator based on the protein annnotations functions to analyze and annotate your genome using the protein annotations.
 - it provides all the analysis done on the basis of the protein anntoations to the genome.
 - provide the reference proteins and the assembled genome and it will provide
-   - mRNA
-   - CDS
-   - plots cCDS
-   - plot mRNA
-   - extract exons
-   - extract introns 
+   - generatemRNA
+     ```
+     generatemRNA("/home/gaurav/Desktop/final_code_push/multi.gff", 
+                        "/home/gaurav/Desktop/final_code_push/multi.fasta", 
+                               "/home/gaurav/Desktop/final_code_push/multiout.fasta")
+     ```
+   - generateCDS
+     ```
+     generateCDS("/home/gaurav/Desktop/final_code_push/multi.gff", 
+                        "/home/gaurav/Desktop/final_code_push/multi.fasta", 
+                               "/home/gaurav/Desktop/final_code_push/multiout.fasta")
+     ```
+   - plotCDS
+     ```
+     ```
+   - plotmRNA
+     ```
+     ```
+   - extractintrons
+     ```
+     ```
+   - plotintrons
+     ```
+     ``` 
 
 ## Installation
 ```bash
@@ -18,7 +36,7 @@ $ pip install protein_annotator
 Interested in contributing? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
 
 ## License
-`protein_annotator` was created by Gaurav Sablok. It is licensed under the terms of the MIT license. 
+`protein_annotator` was created by Gaurav Sablok. It is licensed under the terms of the MIT license. \
 Gaurav Sablok \
 Academic Staff Member \
 Bioinformatics \
