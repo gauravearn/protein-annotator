@@ -21,10 +21,10 @@
    - plotmRNA
      ```
      ```
-   - extractintrons
+   - extractintergenic
      ```
      ```
-   - plotintrons
+   - plotintergenic
      ```
      ``` 
 
