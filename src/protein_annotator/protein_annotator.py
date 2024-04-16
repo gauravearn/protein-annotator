@@ -52,7 +52,7 @@ def generatemRNAs(inputgff, fasta = None, file = None):
     fasta_names = list(fasta_transcript_dict.keys())
     extract_pattern = {}
     for i in range(len(fasta_sequences)):
-        extract_pattern[fasta_names[i]] = fasta_sequences[mRNAstart_coordinate[i]:mRNAend_coordinate[i]]
+        extract_pattern[fasta_names[i]] = fasta_sequences[i][mRNAstart_coordinate[i]-1:mRNAend_coordinate[i]]
     extractkeys = list(extract_pattern.keys())
     extractvalues = list(extract_pattern.values())
     finalextractvalues = [str(''.join(extractvalues[i])) for i in range(len(list(extractvalues)))]
