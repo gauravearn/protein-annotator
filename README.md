@@ -23,14 +23,16 @@
      ![codingplotter](https://github.com/sablokgaurav/codingplotter/blob/main/save.png)
    - plotmRNA
      ```
+     plotmRNAs("/home/gaurav/Desktop/final_code_push/multi.gff",
+                            "/home/gaurav/Desktop/final_code_push/multi.txt")
      ```
    - extractintergenic
      ```
+     generateintergenic("/home/gaurav/Desktop/final_code_push/multi.gff",
+               "/home/gaurav/Desktop/final_code_push/multi.fasta",
+                             "/home/gaurav/Desktop/final_code_push/final.fasta")
      ```
-   - plotintergenic
-     ```
-     ``` 
-
+   
 ## Installation
 ```bash
 $ pip install protein_annotator
