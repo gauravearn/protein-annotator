@@ -23,6 +23,8 @@
      ![codingplotter](https://github.com/sablokgaurav/codingplotter/blob/main/save.png)
    - plotmRNA
      ```
+     plotmRNAs("/home/gaurav/Desktop/final_code_push/multi.gff",
+                            "/home/gaurav/Desktop/final_code_push/multi.txt")
      ```
    - extractintergenic
      ```
