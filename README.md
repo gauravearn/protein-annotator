@@ -17,6 +17,8 @@
      ```
    - plotCDS
      ```
+     plotCDS("/home/gaurav/Desktop/final_code_push/multi.gff",
+                         "/home/gaurav/Desktop/final_code_push/multi.txt")
      ```
    - plotmRNA
      ```
