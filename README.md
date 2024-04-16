@@ -16,6 +16,7 @@
                                "/home/gaurav/Desktop/final_code_push/multiout.fasta")
      ```
    - plotCDS
+     ![codingplotter](https://github.com/sablokgaurav/codingplotter/blob/main/save.png)
      ```
      plotCDS("/home/gaurav/Desktop/final_code_push/multi.gff",
                          "/home/gaurav/Desktop/final_code_push/multi.txt")
