@@ -211,6 +211,9 @@ def generateintergenic(inputgff, fasta, outfile):
     a integenic regions stichter for the genome annotations and can 
     annotated and extract all the integenic regions present by the alignment
     of the protein to the genome regions.
+    generateintergenic("/home/gaurav/Desktop/final_code_push/multi.gff", 
+                             "/home/gaurav/Desktop/final_code_push/multi.fasta", 
+                                          "/home/gaurav/Desktop/final_code_push/final.fasta")
     """
     readfile = [i for i in open(inputgff, "r").readlines() if "#" not in i]
     with open(inputgff + ".coding.gff", "w") as writegff:
@@ -230,11 +233,11 @@ def generateintergenic(inputgff, fasta, outfile):
     fasta_sequences = list(fasta_transcript_dict.values())
     fasta_names = [i.replace(">", "") for i in list(fasta_transcript_dict.keys())]
     readiterator = [i.strip().split() for i in open(inputgff + ".coding.gff").readlines() if i.strip().split()[2] == "CDS"]
-    ids = set([read[i][0] for i in range(len(readiterator))])
+    ids = set([readiterator[i][0] for i in range(len(readiterator))])
     intergenic = []
-    for i in range(len(read)):
-        if read[i][0] in ids:
-            intergenic.append([read[i][0], read[i][3], read[i][4]])
+    for i in range(len(readiterator)):
+        if readiterator[i][0] in ids:
+            intergenic.append([readiterator[i][0], readiterator[i][3], readiterator[i][4]])
         else:
             pass
     extractintergenic = []
@@ -253,4 +256,3 @@ def generateintergenic(inputgff, fasta, outfile):
         for i in range(len(finalwrite)):
             fastawrite.write(f">{finalwrite[i][0]}\n{finalwrite[i][1]}\n")
         fastawrite.close()
-
