@@ -43,7 +43,8 @@ Interested in contributing? Check out the contributing guidelines. Please note t
 
 ## License
 `protein_annotator` was created by Gaurav Sablok. It is licensed under the terms of the MIT license. \
-Gaurav Sablok \
+
+Gaurav \
 Academic Staff Member \
 Bioinformatics \
 Institute for Biochemistry and Biology \
